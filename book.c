@@ -11,7 +11,7 @@ int main(){
     strcpy(myBook.author,"J.D.Salinger");
     myBook.price=12.99;
 
-    printf("Book Title:%s\n",myBook.author);
+    printf("Book Title:%s\n",myBook.title);
     printf("Author:%s\n",myBook.author);
     printf("Price:$%.2f\n",myBook.price);
 
